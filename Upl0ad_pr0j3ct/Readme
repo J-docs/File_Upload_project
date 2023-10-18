@@ -1,0 +1,60 @@
+----------------------------------------------------
+				Description:
+----------------------------------------------------
+
+Certainly! In simple terms, this code is for a web page that you can run on a Node.js server. The purpose of this page is to allow you to send a file from one computer to another over a local network using a web-based upload form.
+
+In summary, this code creates a simple way for two computers to exchange files by using a web-based form and a Node.js server to facilitate the transfer.
+
+For Example:
+Imagine you have two computers connected to the same local network. One computer wants to send a file (like a document, image, or video) to the other computer. To do this, you can use this web page. It provides a form where you can select the file you want to send, and then click a button to upload it. The file is then sent from your computer to the other computer with in the local network.
+
+
+----------------------------------------------------
+				Requirmment:
+----------------------------------------------------
+	-> node js
+	-> npm
+
+
+----------------------------------------------------
+				Computer name:
+------------------------------------------------------
+	pcA - computer having files
+	pcB - computer you want files
+
+
+----------------------------------------------------
+					Linux:
+----------------------------------------------------
+=> on pcB computer:
+
+	-> Installation step:
+			sudo apt-get install node
+			sudo apt-get install npm
+
+		note: give full permissions to upload folder
+
+	-> start node server
+		node index.js
+
+=> on pcA computer:
+	steps:
+		-> Open web browser
+		-> in URL bar type IP and mentioned port number of script
+			example: http://192.168.0.106:4040
+		-> upload file. wait until it get uploaded....
+
+	Note: check upload folder in pcB
+
+
+----------------------------------------------------
+					Windows
+----------------------------------------------------
+-> For windows same process just install node and npm, start index.js
+
+
+
+=> To get the Ip of local pc commands are:
+		linux: ifconfig
+		windows: ipconfig
