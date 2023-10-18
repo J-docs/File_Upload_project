@@ -1,5 +1,5 @@
 ----------------------------------------------------
-				Description:
+		Description:
 ----------------------------------------------------
 
 Certainly! In simple terms, this code is for a web page that you can run on a Node.js server. The purpose of this page is to allow you to send a file from one computer to another over a local network using a web-based upload form.
@@ -11,27 +11,27 @@ Imagine you have two computers connected to the same local network. One computer
 
 
 ----------------------------------------------------
-				Requirmment:
+		Requirmment:
 ----------------------------------------------------
 	-> node js
 	-> npm
 
 
 ----------------------------------------------------
-				Computer name:
+		Computer name:
 ------------------------------------------------------
-	pcA - computer having files
-	pcB - computer you want files
+pcA - computer having files
+pcB - computer you want files
 
 
 ----------------------------------------------------
-					Linux:
+		Linux:
 ----------------------------------------------------
 => on pcB computer:
 
 	-> Installation step:
-			sudo apt-get install node
-			sudo apt-get install npm
+		sudo apt-get install node
+		sudo apt-get install npm
 
 		note: give full permissions to upload folder
 
@@ -49,12 +49,12 @@ Imagine you have two computers connected to the same local network. One computer
 
 
 ----------------------------------------------------
-					Windows
+		Windows
 ----------------------------------------------------
 -> For windows same process just install node and npm, start index.js
 
 
-
+----------------------------------------------------
 => To get the Ip of local pc commands are:
-		linux: ifconfig
-		windows: ipconfig
+	linux: ifconfig
+	windows: ipconfig
